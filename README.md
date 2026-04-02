@@ -46,13 +46,4 @@ Scan the QR code on your phone using the **Expo Go** app, or press `a` to run an
 
 ---
 
-### Need to push your changes?
-Always make sure you pull first to avoid messing up the history!
-```bash
-git pull origin main
-git checkout -b feature/your-feature-name
-# Make your changes
-git add .
-git commit -m "Added my task"
-git push -u origin feature/your-feature-name
-```
+
