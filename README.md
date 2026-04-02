@@ -38,6 +38,13 @@ cd mobile
 npm install
 ```
 
+**Connecting to the Backend (Important!):**
+Because you are running the server locally, your Expo app needs to know your computer's IP address to connect to the backend.
+1. Open your terminal and type `ipconfig` (if on Windows) or `ifconfig` (if on Mac/Linux).
+2. Find your **IPv4 Address** (it will look something like `192.168.1.X`).
+3. Open the file `mobile/src/api/axiosConfig.js`.
+4. Change the `BASE_URL` to match your IP address: `const BASE_URL = 'http://YOUR_IPV4_ADDRESS:5000/api';`
+
 **Run the Mobile App:**
 ```bash
 npx expo start
