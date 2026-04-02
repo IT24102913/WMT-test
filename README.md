@@ -20,9 +20,7 @@ npm install
 ```
 
 **Environment Variables Setup:**
-. In the `backend` folder, find the `.env.example` file.
-2. Duplicate it and rename the copy to strictly `.env`.
-3. Open `.env` and replace the placeholder text with our group's actual `MONGO_URI` and `JWT_SECRET` (ask the Team Leader for these secret keys!).1
+. In the `backend` folder, create new file called .env i'll send the codings for save in there
 
 **Run the Backend:**
 Once `.env` is saved, keep your backend running by typing:
